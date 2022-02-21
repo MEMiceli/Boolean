@@ -1,0 +1,59 @@
+body{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+}
+#contenitore{
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(116, 114, 114, 0.5);
+    padding: 2%;
+}
+header{display:block;
+      margin:0px auto;
+      text-align:center;
+}
+#logo{
+    width: 200px;
+}
+h1{
+    color:#00dd00;
+}
+nav{
+    background-color: #00dd00;
+    width: 50%;
+    height: 10%;
+    margin: auto;
+    text-align: center;
+}
+.utenti{
+    width: 50%;
+    margin: auto;
+    border-top: 10%;
+    color: white;
+    font-size: 20px;
+    
+}
+.account{
+    display: inline-block;
+    width: 50%;
+    border: 2% 2%;
+}
+.batterymiddle{
+    width: 60%;
+    background-color: orange;
+    background-repeat: repeat-x;    
+    height: 30px;
+    
+}
+.batteryfull{
+    width: 80%;
+    background-color: #00dd00;
+    background-repeat: repeat-x;    
+    height: 30px;
+}
+.batterylow{
+    width: 20%;
+    background-color: red;
+    background-repeat: repeat-x;    
+    height: 30px;
+}
